@@ -1,0 +1,55 @@
+* {
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url("./images/staff_main1.jpg");
+    text-align: center;
+    padding-top: 200px;
+  }
+  
+  .head {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    word-spacing: 0.1rem;
+  }
+  .form {
+    margin-left: 5px;
+    max-height: 1000px;
+    max-width: 800px;
+    border: solid 2px whitesmoke;
+    border-radius: 25px;
+    background-color:  rgb(60, 112, 50);
+  }
+  
+  .btn {
+    display: block;
+    height: 40px;
+    width: 140px;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: 500px;
+    margin-left: 140px;
+  }
+  
+  .btn:hover {
+    color: black;
+    background-color: darkorange;
+    transition: 0.5s;
+  }
+  #container{
+    align-items: center;
+    background-color: rgb(103, 87, 9);
+    margin-left: 400px;
+    margin-right: 500px;
+    position: fixed;
+    border-radius: 25px;
+    box-shadow: rgb(170, 13, 13);
+    width: 500px;
+    height: 300px;
+  }

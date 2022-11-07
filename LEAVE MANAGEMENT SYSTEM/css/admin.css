@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(100, 8, 37);
+    overflow: hidden;
+    font-family: system-ui;
+    background: url("./images/y.jfif") ;
+  }
+  .clearfix {
+    clear: both;
+  }
+  .userlevel{
+    margin: 0px;
+    margin-left: 28px;
+    font-weight: bold;
+    color: darkorange;
+    margin-bottom: 30px;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 310px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(82, 2, 26);
+    background: url("./images/x.jfif") ;
+    
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+    color: #1b203d;
+  }
+  .sidenav a {
+    padding: 15px 8px 15px 32px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #979595;
+    display: block;
+    transition: 0.3s;
+    color:wheat;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #1b203d;
+  }
+  .sidenav {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  #main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+    margin-left: 300px;
+  }
+  .header {
+    padding: 20px;
+  }
+   .col-div-6 {
+    width: 50%;
+    float: left;
+  }
+  .profilepic {
+    float: right;
+    width: 160px;
+  }
+  .pro-img {
+    float: left;
+    width: 40px;
+    margin-top: 5px;
+  }
+  .profilepic p {
+    color: white;
+    font-weight: 500;
+    margin-left: 55px;
+    margin-top: 10px;
+    font-size: 13.5px;
+  }
+  .profilepic p span {
+    font-weight: 400;
+    font-size: 12px;
+    display: block;
+    color: #8e8b8b;
+  }
+  .card {
+    width: 25%;
+    float: left;
+  }
+  .box{
+    width: 85%;
+    height: 100px;
+    /* background-color: rgb(30, 42, 122); */
+    margin:120px;
+   
+    padding: 5px;
+  }
+  .box p {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  .box p span {
+    font-size: 18px;
+    font-weight: 400;
+    color: #818181;
+  }
+  .box-icon {
+    font-size: 40px !important;
+    float: right;
+    margin-top: 35px !important;
+    color: #818181;
+    padding-right: 20px;
+  }
+  
